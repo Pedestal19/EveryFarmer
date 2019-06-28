@@ -1,0 +1,119 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/color_text</item>
+        <item name="android:textColorPrimary">@color/white_transparent</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+
+
+
+
+    <style name="AppTheme2" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary_darker</item>
+        <item name="colorPrimaryDark">@color/primary_darker</item>
+        <item name="colorAccent">@color/primary_dark</item>
+    </style>
+
+    <style name="GuestSignup" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary_dark</item>
+        <item name="colorPrimaryDark">@color/primary_darker</item>
+        <item name="colorAccent">@color/primary_dark</item>
+        <item name="android:navigationBarColor">@color/primary_dark</item>
+    </style>
+
+
+    <style name="Widget" />
+
+    <style name="Widget.TextInputLayout">
+        <item name="android:layout_height">@dimen/wrap_content</item>
+        <item name="android:layout_width">@dimen/input_width</item>
+        <item name="android:textColorHint">@color/color_text</item>
+    </style>
+
+    <style name="Widget.TextEdit">
+        <item name="android:layout_height">@dimen/match_parent</item>
+        <item name="android:layout_width">@dimen/match_parent</item>
+        <item name="android:textColorHighlight">@color/color_text_highlight</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColorHint">@color/color_input_hint</item>
+        <item name="android:background">@drawable/state</item>
+        <item name="android:textColor">@color/color_text</item>
+        <item name="android:padding">@dimen/text_padding</item>
+    </style>
+
+    <style name="Widget.Hint">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/color_text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="spinner_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/gradient_spinner</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:popupBackground">#DFFFFFFF</item>
+
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="Base.ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="Base.ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.Dark.Dialog" parent="Theme.AppCompat.Dialog">
+        <item name="colorAccent">@color/primary_darker</item>
+        <item name="android:textColorPrimary">@color/primary_darker</item>
+        <item name="android:background">@color/white_transparent</item>
+    </style>
+
+    <style name="AppTheme.Dark.Dialog2" parent="Theme.AppCompat.Light.Dialog.MinWidth">
+        <item name="colorAccent">#34c93c</item>
+        <item name="android:textColorPrimary">@color/primary_dark</item>
+        <item name="android:background">@color/white_transparent</item>
+
+    </style>
+
+    <style name="AppTheme.Dark.Dialog3" parent="Theme.AppCompat.Light.Dialog.MinWidth">
+        <item name="colorAccent">#fa5243</item>
+        <item name="android:textColorPrimary">#1F1B1B</item>
+        <item name="android:background">@color/white_transparent</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+
+    <style name="SwitchTheme">
+
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="Theme.App.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorControlNormal">@color/colorPrimary</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+    </style>
+
+
+</resources>

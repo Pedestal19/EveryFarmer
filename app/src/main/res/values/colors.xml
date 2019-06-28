@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3c8dbc</color>
+    <color name="colorPrimaryDark">#1F7EB6</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="color_log_in">#60019C8F</color>
+    <color name="color_sign_up">#93303f9f</color>
+
+
+    <color name="color_logo_log_in">#b4faf5</color>
+    <color name="color_logo_sign_up">#bbc4fd</color>
+
+    <color name="color_label">#ededed</color>
+    <color name="white_transparent">#fafafa</color>
+
+    <color name="color_input_hint">#FFF</color>
+    <color name="color_text_highlight">#fafafa</color>
+    <color name="color_text">#FFF</color>
+    <color name="color_text2">#9CFFFFFF</color>
+
+    <color name="lightgrey">#d6d3d3</color>
+    <color name="or">#93efa135</color>
+    <color name="or2">#9325b4f1</color>
+
+    <color name="primary">#3c8dbc</color>
+    <color name="primary_dark">#3c8dbc</color>
+    <color name="primary_darker">#1F7EB6</color>
+    <color name="black">#000000</color>
+</resources>

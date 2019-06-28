@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".activities.MyCollectionList">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:visibility="gone">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_mycollection_list" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabAddNews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginTop="100dp"
+        app:backgroundTint="@color/primary_dark"
+        app:borderWidth="0dp"
+        app:elevation="6dp"
+        app:fabSize="normal"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@android:drawable/ic_menu_add"
+        android:visibility="visible"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabAddTaxPayer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:layout_marginTop="80dp"
+        app:backgroundTint="@color/or2"
+        app:borderWidth="0dp"
+        app:elevation="6dp"
+        app:fabSize="normal"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@android:drawable/ic_menu_add"
+        android:visibility="invisible"/>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabSearchTaxPayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="80dp"
+        android:layout_marginRight="16dp"
+        android:src="@android:drawable/ic_menu_search"
+        android:visibility="gone"/>
+
+    <android.support.v7.widget.SwitchCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/mode"
+        android:textOff="OFF"
+        android:textOn="ON"
+        app:theme="@style/SwitchTheme"
+        />
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>
